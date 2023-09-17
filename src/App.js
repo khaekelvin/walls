@@ -1,9 +1,15 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
+import Walls from "./components/Walls";
 
 function App() {
   return (
     <div className="App">
-      <h1>fwa</h1>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/Walls" element={<Walls />} />
+      </Routes>
     </div>
   );
 }
