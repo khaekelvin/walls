@@ -1,7 +1,7 @@
 import React from "react";
 
-function Walls() {
+function Projects() {
   return <div>Walls</div>;
 }
 
-export default Walls;
+export default Projects;

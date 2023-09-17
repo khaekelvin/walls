@@ -12,7 +12,14 @@ import React from "react";
 // import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 
 function Landing() {
-  return <div>Landing</div>;
+  return (
+    <div>
+      <h1>
+        Hi, I’m a software engineer and a content creator posting regularly
+        about my daily life and projects.
+      </h1>
+    </div>
+  );
 }
 
 export default Landing;
