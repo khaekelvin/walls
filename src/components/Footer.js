@@ -6,7 +6,7 @@ function Footer() {
       <div>
         <h1 className="nav-head">King</h1>
       </div>
-
+      <hr />
       <section className="footer-sec">
         <p className="footer-text">Follow me on Instagram</p>
         <p className="footer-text mar">Business email </p>
