@@ -107,7 +107,7 @@ button:hover {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #000000;
 }
 
 .hover-underline-animation::after {
@@ -116,8 +116,8 @@ button:hover {
   width: 50%;
   transform: scaleX(0);
   height: 2px;
-  bottom: 0;
-  left: 0;
+  bottom: 10px;
+  left: 28px;
   background-color: #000000;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
