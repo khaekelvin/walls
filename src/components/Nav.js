@@ -5,22 +5,22 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <div className="nav-bar">
+    <div className='nav-bar'>
       <nav>
-        <h1 className="nav-head">King</h1>
+        <h1 className='nav-head'>King</h1>
 
-        <ul className="nav-ul">
-          <li className="nav-li">
-            <Link to="/">Home</Link>
+        <ul className='nav-ul '>
+          <li className='nav-li hover-underline-animation'>
+            <Link to='/'>Home</Link>
           </li>
-          <li className="nav-li">
-            <Link to="/Projects">Projects</Link>
+          <li className='nav-li hover-underline-animation'>
+            <Link to='/Projects'>Projects</Link>
           </li>
-          <li className="nav-li">
-            <Link to="/Menu">Menu</Link>
+          <li className='nav-li hover-underline-animation'>
+            <Link to='/Menu'>Menu</Link>
           </li>
-          <li className="nav-li">
-            <Link to="/About">About</Link>
+          <li className='nav-li hover-underline-animation'>
+            <Link to='/About'>About</Link>
           </li>
 
           {/* <FontAwesomeIcon className="github" icon={faGithub} />
