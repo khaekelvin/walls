@@ -21,12 +21,12 @@ import Footer from "./Footer";
 
 function Landing() {
   return (
-    <div className="land">
-      <section className="land-sec">
-        <div className="web-design grid">
+    <div className='land'>
+      <section className='land-sec'>
+        <div className='web-design grid'>
           <span>
-            <h2 className="h1-head">Web Design</h2>
-            <p className="p-text">
+            <h2 className='h1-head'>Web Design</h2>
+            <p className='p-text'>
               As a skilled web designer, I have a keen eye for aesthetics and a
               strong understanding of user experience. I specialize in creating
               visually appealing and user-friendly websites that effectively
@@ -36,14 +36,14 @@ function Landing() {
             </p>
             <button>View Project</button>
           </span>
-          <img className="back" src={back} alt=""></img>
+          <img className='back' src={back} alt=''></img>
         </div>
 
-        <div className="app-development grid">
-          <img className="back" src={back} alt=""></img>
+        <div className='app-development grid'>
+          <img className='back' src={back} alt=''></img>
           <span>
-            <h2 className="h1-head">App Development</h2>
-            <p className="p-text">
+            <h2 className='h1-head'>App Development</h2>
+            <p className='p-text'>
               In the fast-paced world of mobile apps, I offer my expertise in
               app development to create seamless and intuitive user experiences.
               I have a strong foundation in mobile app development frameworks,
@@ -54,24 +54,24 @@ function Landing() {
           </span>
         </div>
 
-        <div className="animation grid">
+        <div className='animation grid'>
           <span>
-            <h2 className="h1-head">Animation</h2>
-            <p className="p-text">
+            <h2 className='h1-head'>Animation</h2>
+            <p className='p-text'>
               Animation brings ideas to life in a captivating and engaging way.
               With my animation skills, I can add that extra touch of magic to
               various projects.
             </p>
             <button>View Project</button>
           </span>
-          <img className="back" src={poback} alt=""></img>
+          <img className='back' src={poback} alt=''></img>
         </div>
 
-        <div className="logo-design grid">
-          <img className="back" src={cyback} alt=""></img>
+        <div className='logo-design grid'>
+          <img className='back' src={cyback} alt=''></img>
           <span>
-            <h2 className="h1-head">Logo Design</h2>
-            <p className="p-text">
+            <h2 className='h1-head'>Logo Design</h2>
+            <p className='p-text'>
               Logo design is both an art and a science, and I excel in creating
               memorable and impactful logos. I understand the importance of a
               strong brand identity, and my designs reflect that understanding.
